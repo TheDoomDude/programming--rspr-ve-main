@@ -135,6 +135,12 @@ body {
 }
 
 /* High score liste */
+#highscores {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 0 1rem;
+}
+
 #score-list { list-style: none; }
 #score-list li {
     display: flex;
